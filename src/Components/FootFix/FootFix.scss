@@ -1,0 +1,34 @@
+.footfix{
+    border: 1px solid #191d28;
+    background-color: #191d28;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    z-index: 10;
+    text-align: center;
+    .footfix-wrap{
+        vertical-align: middle;
+
+        button{
+            font-family: 'Roboto', sans-serif;
+            display: block;
+            cursor: pointer;
+            color:#17a2b8 ;
+            border-color: #17a2b8;
+            background-color: transparent;
+            user-select: none;
+            padding: 6px 12px;
+            border-radius: 0.25rem;
+            margin: 5px auto 10px;
+            font-size: 16px;
+            &:hover{
+                background-color: #17a2b8;
+                color: white;
+            }
+
+        }
+    }
+}

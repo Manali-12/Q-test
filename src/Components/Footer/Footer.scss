@@ -1,0 +1,26 @@
+.footer{
+    border-top: 2px solid #2e3241;
+    padding: 13px;
+    width: 100%;
+    height: 10vh;
+    .footer-wrap{
+        color: #888686;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        font-weight: 400;
+        font-size: 12px;
+        div{
+            white-space: nowrap;
+            padding-right: 12px;
+           span{
+               color: rgb(61, 198, 193);
+           } 
+           
+        }
+        .support{
+            margin-right: 25px;
+            margin-left: auto;   
+        }
+    }
+}
