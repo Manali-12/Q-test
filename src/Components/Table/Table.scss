@@ -1,0 +1,81 @@
+.table{
+    overflow-x:auto ;
+    .table-wrap{
+        padding: 0 25px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        display: block;
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+        @media (max-width: 986px) {
+            font-size: 12px;
+            min-width: 200vw;
+            width: 200vw;
+            line-height: .65;
+            
+        }
+
+        .table-container{
+            width:100%;           
+            border-collapse: separate;
+            border-spacing: 0 1rem;
+            margin: 0 auto;
+            text-align: center;
+            border: 0;
+           
+            .table-heading{
+                cursor: pointer;
+                color: #fff;
+                opacity: .45;
+                letter-spacing: 1px;
+                margin: 0 0 -5px;
+                width: 100%;
+
+            
+            }
+            .table-content{
+                background-color: #2e3241;
+                vertical-align: middle;
+                color: #fff;
+                width: 100%;
+                @media (max-width: 986px) {
+                    font-size: 28px;
+                    
+                }
+                
+                .c1, .c2, .c3, .c4, .c5, .c6{
+                    padding: 15px 12px;
+                    @media (max-width: 986px) {
+                        padding: 10px 6px;
+                        
+                    }
+                }
+                .c1{
+                    border-radius: 10px 0 0 10px;
+                }
+                .c2{
+                    position: relative;
+                    .src{
+                        position: relative;
+                        top: 7px;
+                        right: 5px;
+                        @media (max-width: 986px) {
+                            width: 15%;
+                            height: 15%;
+                            top: 2px;
+                        right: 5px;
+                            
+                        }
+                    }
+                }
+                .c5{
+                    color:#5dc7c2;
+                }
+                .c6{
+                    color: #5dc7c2;
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+        }
+    }
+}
